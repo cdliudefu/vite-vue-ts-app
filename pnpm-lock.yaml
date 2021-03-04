@@ -1,0 +1,674 @@
+dependencies:
+  axios: 0.21.1
+  lib-flexible: 0.3.2
+  vant: 3.0.7_vue@3.0.7
+  vue: 3.0.7
+  vue-router: 4.0.4_vue@3.0.7
+  vuex: 4.0.0_vue@3.0.7
+devDependencies:
+  '@vitejs/plugin-vue': 1.1.5_@vue+compiler-sfc@3.0.7
+  '@vue/compiler-sfc': 3.0.7_vue@3.0.7
+  postcss-pxtorem: 5.1.1
+  typescript: 4.2.2
+  vite: 2.0.5
+lockfileVersion: 5.2
+packages:
+  /@babel/helper-validator-identifier/7.12.11:
+    resolution:
+      integrity: sha1-yaHwIZF9y1zPDU5FPjmQIpgfye0=
+      tarball: '@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.12.11.tgz'
+  /@babel/parser/7.13.9:
+    engines:
+      node: '>=6.0.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-yjTLleHC3RJoY6hEZa6O9mEUvpk=
+      tarball: '@babel/parser/download/@babel/parser-7.13.9.tgz'
+  /@babel/runtime/7.13.9:
+    dependencies:
+      regenerator-runtime: 0.13.7
+    dev: false
+    resolution:
+      integrity: sha1-l9viEW4mMMSJ8i4GVt7NYKqh/O4=
+      tarball: '@babel/runtime/download/@babel/runtime-7.13.9.tgz'
+  /@babel/types/7.13.0:
+    dependencies:
+      '@babel/helper-validator-identifier': 7.12.11
+      lodash: 4.17.21
+      to-fast-properties: 2.0.0
+    resolution:
+      integrity: sha1-dEJNKBbwFxtBAPCrNOmjdO/ff4A=
+      tarball: '@babel/types/download/@babel/types-7.13.0.tgz?cache=0&sync_timestamp=1614043628302&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.13.0.tgz'
+  /@popperjs/core/2.9.0:
+    dev: false
+    resolution:
+      integrity: sha1-MuYyEik90++7UhzTWlAgq2bqpUY=
+      tarball: '@popperjs/core/download/@popperjs/core-2.9.0.tgz'
+  /@vant/icons/1.5.3:
+    dev: false
+    resolution:
+      integrity: sha1-t3efZ79gjUF6gkUvvt5AbfpGtDk=
+      tarball: '@vant/icons/download/@vant/icons-1.5.3.tgz'
+  /@vant/lazyload/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-HKSGvuK5RlrgBaiAFL7oc6ZH92M=
+      tarball: '@vant/lazyload/download/@vant/lazyload-1.0.2.tgz'
+  /@vant/popperjs/1.0.4:
+    dependencies:
+      '@popperjs/core': 2.9.0
+    dev: false
+    resolution:
+      integrity: sha1-ScIICaOCjnsDbiPVD7VhIemXYY8=
+      tarball: '@vant/popperjs/download/@vant/popperjs-1.0.4.tgz'
+  /@vant/use/1.0.5:
+    dependencies:
+      '@babel/runtime': 7.13.9
+    dev: false
+    resolution:
+      integrity: sha1-RL7pUuvM+TlkFKUcTUtFhDSp3iM=
+      tarball: '@vant/use/download/@vant/use-1.0.5.tgz'
+  /@vitejs/plugin-vue/1.1.5_@vue+compiler-sfc@3.0.7:
+    dependencies:
+      '@vue/compiler-sfc': 3.0.7_vue@3.0.7
+    dev: true
+    engines:
+      node: '>=12.0.0'
+    peerDependencies:
+      '@vue/compiler-sfc': ^3.0.6
+    resolution:
+      integrity: sha1-+h6OXgScNeITZy4z9z/oFwatXb4=
+      tarball: '@vitejs/plugin-vue/download/@vitejs/plugin-vue-1.1.5.tgz'
+  /@vue/compiler-core/3.0.7:
+    dependencies:
+      '@babel/parser': 7.13.9
+      '@babel/types': 7.13.0
+      '@vue/shared': 3.0.7
+      estree-walker: 2.0.2
+      source-map: 0.6.1
+    resolution:
+      integrity: sha1-QheCpMZ8w/K3wwRX70RtdPhST3Q=
+      tarball: '@vue/compiler-core/download/@vue/compiler-core-3.0.7.tgz'
+  /@vue/compiler-dom/3.0.7:
+    dependencies:
+      '@vue/compiler-core': 3.0.7
+      '@vue/shared': 3.0.7
+    resolution:
+      integrity: sha1-VNLhL7mnr/U6vRnawsJnlTPwyRk=
+      tarball: '@vue/compiler-dom/download/@vue/compiler-dom-3.0.7.tgz'
+  /@vue/compiler-sfc/3.0.7_vue@3.0.7:
+    dependencies:
+      '@babel/parser': 7.13.9
+      '@babel/types': 7.13.0
+      '@vue/compiler-core': 3.0.7
+      '@vue/compiler-dom': 3.0.7
+      '@vue/compiler-ssr': 3.0.7
+      '@vue/shared': 3.0.7
+      consolidate: 0.16.0
+      estree-walker: 2.0.2
+      hash-sum: 2.0.0
+      lru-cache: 5.1.1
+      magic-string: 0.25.7
+      merge-source-map: 1.1.0
+      postcss: 8.2.6
+      postcss-modules: 4.0.0_postcss@8.2.6
+      postcss-selector-parser: 6.0.4
+      source-map: 0.6.1
+      vue: 3.0.7
+    dev: true
+    peerDependencies:
+      vue: 3.0.7
+    resolution:
+      integrity: sha1-kAQUdQzHJlU7hwSQ9IBzRR/RTwc=
+      tarball: '@vue/compiler-sfc/download/@vue/compiler-sfc-3.0.7.tgz'
+  /@vue/compiler-ssr/3.0.7:
+    dependencies:
+      '@vue/compiler-dom': 3.0.7
+      '@vue/shared': 3.0.7
+    dev: true
+    resolution:
+      integrity: sha1-KLhdSXOB11/kQjQFexQLAGXKnb8=
+      tarball: '@vue/compiler-ssr/download/@vue/compiler-ssr-3.0.7.tgz'
+  /@vue/reactivity/3.0.7:
+    dependencies:
+      '@vue/shared': 3.0.7
+    dev: false
+    resolution:
+      integrity: sha1-5szHvvf8ELCXLk2XS61xZ507Jq0=
+      tarball: '@vue/reactivity/download/@vue/reactivity-3.0.7.tgz'
+  /@vue/runtime-core/3.0.7:
+    dependencies:
+      '@vue/reactivity': 3.0.7
+      '@vue/shared': 3.0.7
+    dev: false
+    resolution:
+      integrity: sha1-1EwLClfX45KRKoc2KkQwzPRG7Oo=
+      tarball: '@vue/runtime-core/download/@vue/runtime-core-3.0.7.tgz'
+  /@vue/runtime-dom/3.0.7:
+    dependencies:
+      '@vue/runtime-core': 3.0.7
+      '@vue/shared': 3.0.7
+      csstype: 2.6.16
+    dev: false
+    resolution:
+      integrity: sha1-twZo1ykCC8StYIwgNnIj8llXa6Y=
+      tarball: '@vue/runtime-dom/download/@vue/runtime-dom-3.0.7.tgz'
+  /@vue/shared/3.0.7:
+    resolution:
+      integrity: sha1-ltUpiO/AdETBCMfGgDunzJPkAEU=
+      tarball: '@vue/shared/download/@vue/shared-3.0.7.tgz'
+  /ansi-styles/3.2.1:
+    dependencies:
+      color-convert: 1.9.3
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0=
+      tarball: ansi-styles/download/ansi-styles-3.2.1.tgz
+  /axios/0.21.1:
+    dependencies:
+      follow-redirects: 1.13.3
+    dev: false
+    resolution:
+      integrity: sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
+      tarball: axios/download/axios-0.21.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.21.1.tgz
+  /big.js/5.2.2:
+    dev: true
+    resolution:
+      integrity: sha1-ZfCvOC9Xi83HQr2cKB6cstd2gyg=
+      tarball: big.js/download/big.js-5.2.2.tgz
+  /bluebird/3.7.2:
+    dev: true
+    resolution:
+      integrity: sha1-nyKcFb4nJFT/qXOs4NvueaGww28=
+      tarball: bluebird/download/bluebird-3.7.2.tgz
+  /chalk/2.4.2:
+    dependencies:
+      ansi-styles: 3.2.1
+      escape-string-regexp: 1.0.5
+      supports-color: 5.5.0
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ=
+      tarball: chalk/download/chalk-2.4.2.tgz
+  /color-convert/1.9.3:
+    dependencies:
+      color-name: 1.1.3
+    dev: true
+    resolution:
+      integrity: sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg=
+      tarball: color-convert/download/color-convert-1.9.3.tgz
+  /color-name/1.1.3:
+    dev: true
+    resolution:
+      integrity: sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=
+      tarball: color-name/download/color-name-1.1.3.tgz
+  /colorette/1.2.2:
+    dev: true
+    resolution:
+      integrity: sha1-y8x51emcrqLb8Q6zom/Ys+as+pQ=
+      tarball: colorette/download/colorette-1.2.2.tgz
+  /consolidate/0.16.0:
+    dependencies:
+      bluebird: 3.7.2
+    dev: true
+    engines:
+      node: '>= 0.10.0'
+    resolution:
+      integrity: sha1-oRhkdokw8vGUMWYKZZBmaPX73BY=
+      tarball: consolidate/download/consolidate-0.16.0.tgz
+  /cssesc/3.0.0:
+    dev: true
+    engines:
+      node: '>=4'
+    hasBin: true
+    resolution:
+      integrity: sha1-N3QZGZA7hoVl4cCep0dEXNGJg+4=
+      tarball: cssesc/download/cssesc-3.0.0.tgz
+  /csstype/2.6.16:
+    dev: false
+    resolution:
+      integrity: sha1-VE1p9UcBO4WkDRW/912zjzT+nDk=
+      tarball: csstype/download/csstype-2.6.16.tgz
+  /emojis-list/3.0.0:
+    dev: true
+    engines:
+      node: '>= 4'
+    resolution:
+      integrity: sha1-VXBmIEatKeLpFucariYKvf9Pang=
+      tarball: emojis-list/download/emojis-list-3.0.0.tgz
+  /esbuild/0.8.54:
+    dev: true
+    hasBin: true
+    requiresBuild: true
+    resolution:
+      integrity: sha1-LzL/gOlcaaDyW3mddqJ8BeKFfN8=
+      tarball: esbuild/download/esbuild-0.8.54.tgz
+  /escape-string-regexp/1.0.5:
+    dev: true
+    engines:
+      node: '>=0.8.0'
+    resolution:
+      integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+      tarball: escape-string-regexp/download/escape-string-regexp-1.0.5.tgz
+  /estree-walker/2.0.2:
+    resolution:
+      integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=
+      tarball: estree-walker/download/estree-walker-2.0.2.tgz
+  /follow-redirects/1.13.3:
+    dev: false
+    engines:
+      node: '>=4.0'
+    resolution:
+      integrity: sha1-5VmK1QF0wbxOhyMB6CrCzZf5Amc=
+      tarball: follow-redirects/download/follow-redirects-1.13.3.tgz
+  /fsevents/2.3.2:
+    dev: true
+    engines:
+      node: ^8.16.0 || ^10.6.0 || >=11.0.0
+    optional: true
+    resolution:
+      integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=
+      tarball: fsevents/download/fsevents-2.3.2.tgz
+  /function-bind/1.1.1:
+    dev: true
+    resolution:
+      integrity: sha1-pWiZ0+o8m6uHS7l3O3xe3pL0iV0=
+      tarball: function-bind/download/function-bind-1.1.1.tgz
+  /generic-names/2.0.1:
+    dependencies:
+      loader-utils: 1.4.0
+    dev: true
+    resolution:
+      integrity: sha1-+KN46tLMqno08DF7BVVIMq5BuHI=
+      tarball: generic-names/download/generic-names-2.0.1.tgz
+  /has-flag/3.0.0:
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+      tarball: has-flag/download/has-flag-3.0.0.tgz
+  /has/1.0.3:
+    dependencies:
+      function-bind: 1.1.1
+    dev: true
+    engines:
+      node: '>= 0.4.0'
+    resolution:
+      integrity: sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=
+      tarball: has/download/has-1.0.3.tgz
+  /hash-sum/2.0.0:
+    dev: true
+    resolution:
+      integrity: sha1-gdAbtd6OpKIUrV1urRtSNGCwtFo=
+      tarball: hash-sum/download/hash-sum-2.0.0.tgz
+  /icss-replace-symbols/1.1.0:
+    dev: true
+    resolution:
+      integrity: sha1-Bupvg2ead0njhs/h/oEq5dsiPe0=
+      tarball: icss-replace-symbols/download/icss-replace-symbols-1.1.0.tgz
+  /icss-utils/5.1.0_postcss@8.2.6:
+    dependencies:
+      postcss: 8.2.6
+    dev: true
+    engines:
+      node: ^10 || ^12 || >= 14
+    peerDependencies:
+      postcss: ^8.1.0
+    resolution:
+      integrity: sha1-xr5oWKvQE9do6YNmrkfiXViHsa4=
+      tarball: icss-utils/download/icss-utils-5.1.0.tgz
+  /indexes-of/1.0.1:
+    dev: true
+    resolution:
+      integrity: sha1-8w9xbI4r00bHtn0985FVZqfAVgc=
+      tarball: indexes-of/download/indexes-of-1.0.1.tgz
+  /is-core-module/2.2.0:
+    dependencies:
+      has: 1.0.3
+    dev: true
+    resolution:
+      integrity: sha1-lwN+89UiJNhRY/VZeytj2a/tmBo=
+      tarball: is-core-module/download/is-core-module-2.2.0.tgz
+  /json5/1.0.1:
+    dependencies:
+      minimist: 1.2.5
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha1-d5+wAYYE+oVOrL9iUhgNg1Q+Pb4=
+      tarball: json5/download/json5-1.0.1.tgz
+  /lib-flexible/0.3.2:
+    dev: false
+    resolution:
+      integrity: sha1-BvWnSDIxSi01wSA5vJw8otrqpCY=
+      tarball: lib-flexible/download/lib-flexible-0.3.2.tgz
+  /loader-utils/1.4.0:
+    dependencies:
+      big.js: 5.2.2
+      emojis-list: 3.0.0
+      json5: 1.0.1
+    dev: true
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-xXm140yzSxp07cbB+za/o3HVphM=
+      tarball: loader-utils/download/loader-utils-1.4.0.tgz
+  /lodash.camelcase/4.3.0:
+    dev: true
+    resolution:
+      integrity: sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
+      tarball: lodash.camelcase/download/lodash.camelcase-4.3.0.tgz
+  /lodash/4.17.21:
+    resolution:
+      integrity: sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
+      tarball: lodash/download/lodash-4.17.21.tgz
+  /lru-cache/5.1.1:
+    dependencies:
+      yallist: 3.1.1
+    dev: true
+    resolution:
+      integrity: sha1-HaJ+ZxAnGUdpXa9oSOhH8B2EuSA=
+      tarball: lru-cache/download/lru-cache-5.1.1.tgz
+  /magic-string/0.25.7:
+    dependencies:
+      sourcemap-codec: 1.4.8
+    dev: true
+    resolution:
+      integrity: sha1-P0l9b9NMZpxnmNy4IfLvMfVEUFE=
+      tarball: magic-string/download/magic-string-0.25.7.tgz
+  /merge-source-map/1.1.0:
+    dependencies:
+      source-map: 0.6.1
+    dev: true
+    resolution:
+      integrity: sha1-L93n5gIJOfcJBqaPLXrmheTIxkY=
+      tarball: merge-source-map/download/merge-source-map-1.1.0.tgz
+  /minimist/1.2.5:
+    dev: true
+    resolution:
+      integrity: sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
+      tarball: minimist/download/minimist-1.2.5.tgz?cache=0&sync_timestamp=1610542768315&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fminimist%2Fdownload%2Fminimist-1.2.5.tgz
+  /nanoid/3.1.20:
+    dev: true
+    engines:
+      node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1
+    hasBin: true
+    resolution:
+      integrity: sha1-utwmPGsdzxS3HvqoX2q0wdbPx4g=
+      tarball: nanoid/download/nanoid-3.1.20.tgz
+  /path-parse/1.0.6:
+    dev: true
+    resolution:
+      integrity: sha1-1i27VnlAXXLEc37FhgDp3c8G0kw=
+      tarball: path-parse/download/path-parse-1.0.6.tgz
+  /postcss-modules-extract-imports/3.0.0_postcss@8.2.6:
+    dependencies:
+      postcss: 8.2.6
+    dev: true
+    engines:
+      node: ^10 || ^12 || >= 14
+    peerDependencies:
+      postcss: ^8.1.0
+    resolution:
+      integrity: sha1-zaHwR8CugMl9vijD52pDuIAldB0=
+      tarball: postcss-modules-extract-imports/download/postcss-modules-extract-imports-3.0.0.tgz
+  /postcss-modules-local-by-default/4.0.0_postcss@8.2.6:
+    dependencies:
+      icss-utils: 5.1.0_postcss@8.2.6
+      postcss: 8.2.6
+      postcss-selector-parser: 6.0.4
+      postcss-value-parser: 4.1.0
+    dev: true
+    engines:
+      node: ^10 || ^12 || >= 14
+    peerDependencies:
+      postcss: ^8.1.0
+    resolution:
+      integrity: sha1-67tU+uFZjuz99pGgKz/zs5ClpRw=
+      tarball: postcss-modules-local-by-default/download/postcss-modules-local-by-default-4.0.0.tgz
+  /postcss-modules-scope/3.0.0_postcss@8.2.6:
+    dependencies:
+      postcss: 8.2.6
+      postcss-selector-parser: 6.0.4
+    dev: true
+    engines:
+      node: ^10 || ^12 || >= 14
+    peerDependencies:
+      postcss: ^8.1.0
+    resolution:
+      integrity: sha1-nvMVFFbTu/oSDKRImN/Kby+gHwY=
+      tarball: postcss-modules-scope/download/postcss-modules-scope-3.0.0.tgz
+  /postcss-modules-values/4.0.0_postcss@8.2.6:
+    dependencies:
+      icss-utils: 5.1.0_postcss@8.2.6
+      postcss: 8.2.6
+    dev: true
+    engines:
+      node: ^10 || ^12 || >= 14
+    peerDependencies:
+      postcss: ^8.1.0
+    resolution:
+      integrity: sha1-18Xn5ow7s8myfL9Iyguz/7RgLJw=
+      tarball: postcss-modules-values/download/postcss-modules-values-4.0.0.tgz
+  /postcss-modules/4.0.0_postcss@8.2.6:
+    dependencies:
+      generic-names: 2.0.1
+      icss-replace-symbols: 1.1.0
+      lodash.camelcase: 4.3.0
+      postcss: 8.2.6
+      postcss-modules-extract-imports: 3.0.0_postcss@8.2.6
+      postcss-modules-local-by-default: 4.0.0_postcss@8.2.6
+      postcss-modules-scope: 3.0.0_postcss@8.2.6
+      postcss-modules-values: 4.0.0_postcss@8.2.6
+      string-hash: 1.1.3
+    dev: true
+    peerDependencies:
+      postcss: ^8.0.0
+    resolution:
+      integrity: sha1-K8fydquI8/Gw+t9svXdy1DtfO5s=
+      tarball: postcss-modules/download/postcss-modules-4.0.0.tgz
+  /postcss-pxtorem/5.1.1:
+    dependencies:
+      postcss: 7.0.35
+    dev: true
+    resolution:
+      integrity: sha1-GYpowQ+a0tQjcO9mKZ17MWj4z/o=
+      tarball: postcss-pxtorem/download/postcss-pxtorem-5.1.1.tgz
+  /postcss-selector-parser/6.0.4:
+    dependencies:
+      cssesc: 3.0.0
+      indexes-of: 1.0.1
+      uniq: 1.0.1
+      util-deprecate: 1.0.2
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-VgdaE4CgRgTDiwY+p3Z6Epr1wrM=
+      tarball: postcss-selector-parser/download/postcss-selector-parser-6.0.4.tgz
+  /postcss-value-parser/4.1.0:
+    dev: true
+    resolution:
+      integrity: sha1-RD9qIM7WSBor2k+oUypuVdeJoss=
+      tarball: postcss-value-parser/download/postcss-value-parser-4.1.0.tgz
+  /postcss/7.0.35:
+    dependencies:
+      chalk: 2.4.2
+      source-map: 0.6.1
+      supports-color: 6.1.0
+    dev: true
+    engines:
+      node: '>=6.0.0'
+    resolution:
+      integrity: sha1-0r4AuZj38hHYonaXQHny6SuXDiQ=
+      tarball: postcss/download/postcss-7.0.35.tgz
+  /postcss/8.2.6:
+    dependencies:
+      colorette: 1.2.2
+      nanoid: 3.1.20
+      source-map: 0.6.1
+    dev: true
+    engines:
+      node: ^10 || ^12 || >=14
+    resolution:
+      integrity: sha1-XWmpdFQ7Rfh+RkvEw+OSqX1r6f4=
+      tarball: postcss/download/postcss-8.2.6.tgz
+  /regenerator-runtime/0.13.7:
+    dev: false
+    resolution:
+      integrity: sha1-ysLazIoepnX+qrrriugziYrkb1U=
+      tarball: regenerator-runtime/download/regenerator-runtime-0.13.7.tgz
+  /resolve/1.20.0:
+    dependencies:
+      is-core-module: 2.2.0
+      path-parse: 1.0.6
+    dev: true
+    resolution:
+      integrity: sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU=
+      tarball: resolve/download/resolve-1.20.0.tgz
+  /rollup/2.40.0:
+    dev: true
+    engines:
+      node: '>=10.0.0'
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    resolution:
+      integrity: sha1-78IY6u3nq1kJVN9Q+WGVGImZwwQ=
+      tarball: rollup/download/rollup-2.40.0.tgz
+  /source-map/0.6.1:
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
+      tarball: source-map/download/source-map-0.6.1.tgz
+  /sourcemap-codec/1.4.8:
+    dev: true
+    resolution:
+      integrity: sha1-6oBL2UhXQC5pktBaOO8a41qatMQ=
+      tarball: sourcemap-codec/download/sourcemap-codec-1.4.8.tgz
+  /string-hash/1.1.3:
+    dev: true
+    resolution:
+      integrity: sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=
+      tarball: string-hash/download/string-hash-1.1.3.tgz
+  /supports-color/5.5.0:
+    dependencies:
+      has-flag: 3.0.0
+    dev: true
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-4uaaRKyHcveKHsCzW2id9lMO/I8=
+      tarball: supports-color/download/supports-color-5.5.0.tgz
+  /supports-color/6.1.0:
+    dependencies:
+      has-flag: 3.0.0
+    dev: true
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha1-B2Srxpxj1ayELdSGfo0CXogN+PM=
+      tarball: supports-color/download/supports-color-6.1.0.tgz
+  /to-fast-properties/2.0.0:
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=
+      tarball: to-fast-properties/download/to-fast-properties-2.0.0.tgz
+  /typescript/4.2.2:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-FFDwIGGPhy2w6hcxfRbY2o3bjEw=
+      tarball: typescript/download/typescript-4.2.2.tgz
+  /uniq/1.0.1:
+    dev: true
+    resolution:
+      integrity: sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
+      tarball: uniq/download/uniq-1.0.1.tgz
+  /util-deprecate/1.0.2:
+    dev: true
+    resolution:
+      integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+      tarball: util-deprecate/download/util-deprecate-1.0.2.tgz
+  /vant/3.0.7_vue@3.0.7:
+    dependencies:
+      '@babel/runtime': 7.13.9
+      '@vant/icons': 1.5.3
+      '@vant/lazyload': 1.0.2
+      '@vant/popperjs': 1.0.4
+      '@vant/use': 1.0.5
+      vue: 3.0.7
+    dev: false
+    peerDependencies:
+      vue: ^3.0.0
+    resolution:
+      integrity: sha1-IIPShfMw4oSURxl1Ecglai63/A0=
+      tarball: vant/download/vant-3.0.7.tgz
+  /vite/2.0.5:
+    dependencies:
+      esbuild: 0.8.54
+      postcss: 8.2.6
+      resolve: 1.20.0
+      rollup: 2.40.0
+    dev: true
+    engines:
+      node: '>=12.0.0'
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    resolution:
+      integrity: sha1-rEaFej+oaG0HeSHmG9SKmGkx3x0=
+      tarball: vite/download/vite-2.0.5.tgz
+  /vue-router/4.0.4_vue@3.0.7:
+    dependencies:
+      vue: 3.0.7
+    dev: false
+    peerDependencies:
+      vue: ^3.0.0
+    resolution:
+      integrity: sha1-rZtLe72tYiQHtP8YmxZG9IwekFM=
+      tarball: vue-router/download/vue-router-4.0.4.tgz?cache=0&sync_timestamp=1613742454786&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-4.0.4.tgz
+  /vue/3.0.7:
+    dependencies:
+      '@vue/compiler-dom': 3.0.7
+      '@vue/runtime-dom': 3.0.7
+      '@vue/shared': 3.0.7
+    dev: false
+    resolution:
+      integrity: sha1-i8/1H4vlcPnkzozF9S4qsP48dKE=
+      tarball: vue/download/vue-3.0.7.tgz?cache=0&sync_timestamp=1614647790162&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue%2Fdownload%2Fvue-3.0.7.tgz
+  /vuex/4.0.0_vue@3.0.7:
+    dependencies:
+      vue: 3.0.7
+    dev: false
+    peerDependencies:
+      vue: ^3.0.2
+    resolution:
+      integrity: sha1-rId6p2qcRTaMl5Rx5GG1INOObPU=
+      tarball: vuex/download/vuex-4.0.0.tgz
+  /yallist/3.1.1:
+    dev: true
+    resolution:
+      integrity: sha1-27fa+b/YusmrRev2ArjLrQ1dCP0=
+      tarball: yallist/download/yallist-3.1.1.tgz
+specifiers:
+  '@vitejs/plugin-vue': ^1.1.5
+  '@vue/compiler-sfc': ^3.0.5
+  axios: ^0.21.1
+  lib-flexible: ^0.3.2
+  postcss-pxtorem: ^5.1.1
+  typescript: ^4.1.3
+  vant: ^3.0.7
+  vite: ^2.0.5
+  vue: ^3.0.5
+  vue-router: '4'
+  vuex: ^4.0.0
